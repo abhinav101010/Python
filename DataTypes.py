@@ -11,14 +11,22 @@ a = 42
 b = 3.14
 c = "hello"
 d = True
-e = [1, 2, 3]
-f = (1, 2, 3)
-g = {"a": 1, "b": 2}
-h = {1, 2, 3}
+e = [1, 2, 3] # list is mutable, so it can be changed after creation
+f = (1, 2, 3) # tuple is immutable, so it cannot be changed after creation
+g = {"a": 1, "b": 2} # dict is mutable, so it can be changed after creation
+h = {1, 2, 3} # set is mutable, so it can be changed after creation
 
 print(a, b, c, d, e, f, g, h, '\n')
 print(e[0], f[1], g['a'], '\n')
 # print(e[0], f[1], g['a'], h[2], '\n')
+
+# Tuple is immutable, so it cannot be changed after creation
+# Tuple is ordered, so indexing is supported
+
+
+# Set only stores unique values
+# Set is unordered, so indexing is not supported
+# Set is mutable, so it can be changed after creation
 
 # mutable: can be changed after creation
 # immutable: cannot be changed after creation
@@ -26,7 +34,8 @@ print(e[0], f[1], g['a'], '\n')
 # diff b/w list and tuple
 # list is mutable, tuple is immutable
 # diff b/w dict and set
-# dict is mutable, set is immutable
+# set is mutable, so it can be changed after creation
+# dict is mutable, so it can be changed after creation
 # mutable vs immutable
 
 for i in e:

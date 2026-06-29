@@ -22,7 +22,9 @@
 # 19. str.zfill() - Returns a zero-filled version of the string with a specified width.
 # 20. str.endswith() - Returns True if the string ends with a specified suffix, False otherwise.
 # 21. str.startswith() - Returns True if the string starts with a specified prefix, False otherwise.
-
+# 22. str.substr() - Returns a substring of the string based on the specified start and end indices.
+# 23. str.isalpha() - Returns True if the string contains only alphabetic characters, False otherwise.
+# 24. str.isalnum() - Returns True if the string contains only alphanumeric characters, False otherwise.
 
 a = "  Hello, World!  "
 print(a.strip())
@@ -32,5 +34,7 @@ print(a.strip().lower().capitalize().endswith("!"))
 print(a.strip().lower().capitalize().startswith("H"))
 print(a.strip().lower().capitalize().replace("H", "h"))
 print(a.strip().lower().capitalize().replace("H", "h").zfill(20))
-
-
+print(a.strip().lower().capitalize().replace("H", "h").zfill(20).partition(" "))
+print(a.strip().lower().capitalize().replace("H", "h").zfill(20).rpartition(" ")[0])
+print(a[0:2])
+print(a)
