@@ -25,6 +25,7 @@
 # 22. str.substr() - Returns a substring of the string based on the specified start and end indices.
 # 23. str.isalpha() - Returns True if the string contains only alphabetic characters, False otherwise.
 # 24. str.isalnum() - Returns True if the string contains only alphanumeric characters, False otherwise.
+# 25. str.isdigit() - Returns True if the string contains only numeric characters, False otherwise.
 
 a = "  Hello, World!  "
 print(a.strip())
